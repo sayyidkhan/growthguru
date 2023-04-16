@@ -1,78 +1,71 @@
 import { SkillType } from "beautiful-skill-tree";
-import accelerateIcon from './Accelerateicon.jpg';
-import backdraftIcon from './Backdrafticon.jpg';
+import htmlIcon from './htmlicon.jpg';
+import graphqlIcon from './graphqlIcon.jpg';
 import blightPhoenixIcon from './Blightpheonixicon.jpg';
-import chainReactionIcon from './Chainreactionicon.jpg';
+import mysqlIcon from './mysqlIcon.jpg';
 import cloudKillIcon from './Cloudkillicon.jpg';
-import convergeIcon from './Convergeicon.jpg';
+import npmIcon from './npmIcon.jpg';
 import elatedIcon from './Elatedicon.jpg';
-import fleetIcon from './Fleeticon.jpg';
-import flickerIcon from './Flickericon.jpg';
-import forsightIcon from './Foresighticon.jpg';
-import heliosIcon from './Heliosicon.jpg';
-import immolateIcon from './Immolateicon.jpg';
-import inertiaIcon from './Inertiaicon.jpg';
-import kineticReflectIcon from './Kineticreflecticon.jpg';
-import lifeTapIcon from './Lifetapicon.jpg';
-import mindsEyeIcon from './Mindseyeicon.jpg';
-import quickenIcon from './Quickenicon.jpg';
+import packagemanagerIcon from './packagemanagerIcon.jpg';
+import databaseIcon from './databaseIcon.jpg';
+import introtonosqldatabaseIcon from './introtonosqldatabaseIcon.jpg';
+import mongodbIcon from './mongodbIcon.jpg';
+import introtosqldatabaseIcon from './introtosqldatabaseIcon.jpg';
+import javascriptIcon2 from './javascriptIcon2.jpg';
+import css from './cssIcon.jpg';
+import learnaprogramminglanguageIcon from './learnaprogramminglanguageIcon.jpg';
+import howinternertworksIcon from './howinternetworksIcon.jpg';
+import yarnIcon from './yarnIcon.jpg';
 import reaperIcon from './Reapericon.jpg';
 import recompenseIcon from './Recompenseicon.jpg';
-import resIcon from './Resicon.jpg';
-import restorationIcon from './Restorationicon.jpg';
+import pythonIcon from './pythonIcon.jpg';
+import httpprotocolIcon from './httpprotocolIcon.jpg';
 import ruinIcon from './Ruinicon.jpg';
-import scornIcon from './Scornicon.jpg';
+import javascriptIcon from './Scornicon.jpg';
 import subsequenceIcon from './Subsequenceicon.jpg';
-import suspensionIcon from './Suspensionicon.jpg';
+import websecurityIcon from './websecurityIcon.jpg';
 import sweetReleaseIcon from './Sweetreleaseicon.jpg';
 import thoughtLockIcon from './Thoughtlockicon.jpg';
-import wardIcon from './Wardicon.jpg';
+import githubIcon from './githubIcon.jpg';
 import wreckIcon from './Wreckicon.jpg';
 
 export const frontEnd: SkillType = [
   {
-    id: "ward",
-    icon: wardIcon,
-    title: "Ward",
+    id: "GitHub",
+    icon: githubIcon,
+    title: "Github",
     tooltipDescription:
-      "Improves your shield capacity and shield recharge delay.",
+      "Congratulations, you have become a GitHub master! Utilize the power of version control to manage your code, collaborate with others, and showcase your projects to the world. With GitHub, you can create repositories, fork and merge changes, and roll back to previous versions with ease.",
     children: [
       {
-        id: "suspension",
-        icon: suspensionIcon,
-        title: "Suspension",
-        tooltipDescription: "Increases the duration of Phaselock.",
+        id: "Web Security",
+        icon: websecurityIcon,
+        title: "Web Security",
+        tooltipDescription: "Congratulations, you have unlocked the power of Web Security! Protect your applications from hackers and malicious attacks with ease. With this skill, you can become a security master and keep your digital world safe.",
         children: [
           {
-            id: "fleet",
-            icon: fleetIcon,
-            title: "Fleet",
+            id: "Package Manager",
+            icon: packagemanagerIcon,
+            title: "Package Manager",
             tooltipDescription:
-              "Your movement speed increases while your shields are depleted.",
+              "You have mastered the art of package management! Use this powerful tool to easily install, update, and manage dependencies for your code. With a package manager, you can save time and streamline your workflow.",
             children: [
               {
-                id: "converge",
-                icon: convergeIcon,
-                title: "Converge",
+                id: "npm",
+                icon: npmIcon,
+                title: "npm",
                 tooltipDescription:
-                  "Your Phaselock ability now also pulls nearby enemies to the original target. This deals a small amount of damage to affected enemies.",
+                  "You have unlocked the power of npm! Use this popular package manager to easily install and manage dependencies for your projects. With npm, you can access a vast library of packages and tools to enhance your applications.",
                 children: [
-                  {
-                    id: "quicken",
-                    icon: quickenIcon,
-                    title: "Quicken",
-                    tooltipDescription:
-                      "Increases the cooldown rate of your phaselock ability.",
-                    children: []
-                  }
+                
                 ]
               },
               {
-                id: "thoughlock",
-                icon: thoughtLockIcon,
-                title: "Thoughtlock",
+                id: "yarn",
+                icon: yarnIcon,
+                title: "yarn",
                 tooltipDescription:
-                  "Phaselock causes enemies to turn on their friends instead of being locked down. Additionally, Phaselock's duration is increased, but so is it's cooldown. ",
+                  "Congratulations, you have mastered the power of Yarn! Use this lightning-fast package manager to manage dependencies for your projects with ease. With Yarn, you can speed up your workflow and enjoy a smoother development experience.",
                 children: []
               }
             ]
@@ -83,19 +76,19 @@ export const frontEnd: SkillType = [
   },
   {
     "id": "html",
-    "icon": accelerateIcon,
+    "icon": htmlIcon,
     "title": "HTML",
     "tooltipDescription": "Unlock the power to create stunning and interactive webpages with HTML! From basic layouts to dynamic content, mastering HTML is the first step to unleashing your creativity on the web. Get started today!",
     "children": [
       {
         "id": "css",
-        "icon": kineticReflectIcon,
+        "icon": css,
         "title": "CSS",
         "tooltipDescription": "Transform your web design skills with CSS! From styling text to creating stunning visual effects, mastering CSS is key to becoming a top-tier web developer.",
         "children": [
           {
             "id": "javascript",
-            "icon": inertiaIcon,
+            "icon": javascriptIcon2,
             "title": "JavaScript",
             "tooltipDescription": "Become a master of interactive web development with JavaScript! From creating responsive web designs to building complex applications, mastering JavaScript is essential for creating cutting-edge web experiences.",
             "children": []
@@ -109,74 +102,46 @@ export const frontEnd: SkillType = [
 
 export const backEnd = [
   {
-    id: "minds-eye",
-    icon: mindsEyeIcon,
-    title: "Mind's Eye",
-    tooltipDescription: "Increases critical hit damage and melee damage.",
+    id: "how internet works",
+    icon: howinternertworksIcon,
+    title: "how internet works",
+    tooltipDescription: "you have unlocked the power of the Internet! Explore the vast network of connected computers and learn how information travels from one corner of the world to another. Use your newfound knowledge to connect with people, discover new websites, and build your online presence. critical hit damage and melee damage.",
     children: [
       {
-        id: "restoration",
-        icon: restorationIcon,
-        title: "Restoration",
+        id: "http protocol",
+        icon: httpprotocolIcon,
+        title: "HTTP protocol",
         tooltipDescription:
-          "Shooting other players heals them. Also increases your maximum health.",
+          "Congratulations, you've mastered the HTTP protocol! Navigate the digital world with ease as you communicate with servers and retrieve information from websites. With this skill, you can access a wealth of knowledge and resources at your fingertips.",
         children: [
           {
-            id: "elated",
+            id: "browsers",
             icon: elatedIcon,
-            title: "Elated",
+            title: "Browsers",
             tooltipDescription:
-              "While you have an enemy Phaselocked you and your friends regenerate health.",
-            children: [
-              {
-                id: "life-tap",
-                icon: lifeTapIcon,
-                title: "Life Tap",
+              "You are now a browser master! Discover the web's many wonders as you browse with speed and precision. Customize your experience with extensions, bookmarks, and other tools to make your online journey even more exciting.",
+    id: "Learn a programming language",
+                icon: learnaprogramminglanguageIcon,
+                title: "Learn a programming language",
                 tooltipDescription:
-                  "Killing an enemy causes you to steal health from any enemy you damage. This effect lasts a short while.",
+                  "You've unlocked the skill of programming! Learn the language of computers and create your own digital world. With each new language, you'll gain new abilities and possibilities for your creations.",
                 children: [
-                  {
-                    id: "scorn",
-                    icon: scornIcon,
-                    title: "Scorn",
-                    tooltipDescription:
-                      "Throw an Orb of Slag that constantly damages enemies near it. This ability has a cooldown. Perform a regular melee attack when Scorn is on cooldown.",
-                    children: []
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            id: "sweet-release",
-            icon: sweetReleaseIcon,
-            title: "Sweet Release",
-            tooltipDescription:
-              "Increases damage and bullet speed with all gun types.",
-            children: [
               {
-                id: "wreck",
-                icon: wreckIcon,
-                title: "Wreck",
+                id: "JavaScript",
+                icon: javascriptIcon2,
+                title: "JavaScript",
                 tooltipDescription:
-                  "While you have an enemy Phaselocked you gain increased fire rate and damage with all gun types.",
+                  "You have mastered the power of JavaScript! Use this dynamic programming language to bring your web projects to life. Create interactive websites and add exciting features that engage your users and enhance their experience.",
                 children: [
-                  {
-                    id: "recompense",
-                    icon: recompenseIcon,
-                    title: "Recompense",
-                    tooltipDescription:
-                      "When you take health damage there is chance your attacker takes damage equal to the amount of health you lost. ",
-                    children: []
-                  }
+                   
                 ]
               },
               {
-                id: "res",
-                icon: resIcon,
-                title: "Res",
+                id: "Python",
+                icon: pythonIcon,
+                title: "Python",
                 tooltipDescription:
-                  "You can instantly revive your friend in Fight for your Life by using Phaselock on him/her.",
+                  "You have unlocked the power of Python! Use this versatile language to build anything from simple scripts to complex software applications. With its ease of use and powerful libraries, Python is the ultimate tool for any coding project.",
                 children: []
               }
             ]
@@ -189,85 +154,54 @@ export const backEnd = [
 
 export const database = [
   {
-    id: "flicker",
-    icon: flickerIcon,
-    title: "Flicker",
+    id: "Intro to Database",
+    icon: databaseIcon,
+    title: "Intro to Database",
     tooltipDescription:
-      "Increases your chance to cause status effects with Fire, Shock, Corrosive and Slag guns.",
+      "Congratulations, adventurer! You've unlocked the power of databases! Discover the wonders of storing and managing data as you embark on your digital journey.",
     children: [
       {
-        id: "immolate",
-        icon: immolateIcon,
-        title: "Immolate",
+        id: "intro to SQL Database",
+        icon: introtosqldatabaseIcon,
+        title: "intro to SQL Database",
         tooltipDescription:
-          "Adds fire damage to all of your shots fired while in Fight for your Life. The additional fire damage is based on the damage of the weapon you're firing.",
+          "You are now a master of SQL databases! Use the power of SQL to create, modify, and query databases with ease. With this skill, you can unlock the secrets hidden within your data.",
         children: [
           {
-            id: "chain-reaction",
-            icon: chainReactionIcon,
-            title: "Chain Reaction",
+            id: "MySQL",
+            icon: mysqlIcon,
+            title: "MySQL",
             tooltipDescription:
-              "While you have an enemy Phaselocked all of your shots that hit enemies have a chance to ricochet and hit another nearby enemy. Chain Reaction only works with bullets.",
+              "You have mastered the power of MySQL! Use this widely-used relational database management system to store and manage your data with ease. With its rock-solid reliability and robust feature set, MySQL is the ultimate tool for any data-driven project.",
             children: [
-              {
-                id: "cloud-kill",
-                icon: cloudKillIcon,
-                title: "Cloud Kill",
-                tooltipDescription:
-                  "Shooting an enemy creates a lingering acid cloud, dealing constant corrosive damage to enemies who touch it. Only one acid cloud can be active at a time. ",
-                children: [
-                  {
-                    id: "reaper",
-                    icon: reaperIcon,
-                    title: "Reaper",
-                    tooltipDescription:
-                      "You deal increased damage to any enemy that has more than 50% of his health remaining.",
-                    children: []
-                  },
-                  {
-                    id: "blight-phoenix",
-                    icon: blightPhoenixIcon,
-                    title: "Blight Phoenix",
-                    tooltipDescription:
-                      "Killing an enemy causes you to deal constant fire and corrosive damage to nearby enemies for a short time. The damage is based on your level and the level of Blight Phoenix.",
-                    children: []
-                  }
-                ]
-              }
+               
             ]
           }
         ]
       },
       {
-        id: "forsight",
-        icon: forsightIcon,
-        title: "Forsight",
+        id: "Intro to Non-SQL Database",
+        icon: introtonosqldatabaseIcon,
+        title: "Intro to Non-SQL Database",
         tooltipDescription:
-          "Increases magazine size and reload speed with all weapon types.",
+          "You have mastered the art of non-SQL databases! Explore the wonders of storing and retrieving data without the constraints of traditional SQL databases. With this skill, you can create lightning-fast applications and unlock new possibilities for your data.              ",
         children: [
           {
-            id: "helios",
-            icon: heliosIcon,
-            title: "Helios",
+            id: "MongoDB",
+            icon: mongodbIcon,
+            title: "MongoDB",
             tooltipDescription:
-              "Phaselocking an enemy causes a fiery explosion, damaging any nearby enemies.",
+              "You have unlocked the power of MongoDB! Use this cutting-edge database technology to store and manage your data with ease. With its flexible document model and powerful querying capabilities, MongoDB is the ultimate tool for any data-driven project.",
             children: [
               {
-                id: "backdraft",
-                icon: backdraftIcon,
-                title: "Backdraft",
+                id: "GraphQL",
+                icon: graphqlIcon,
+                title: "GraphQL",
                 tooltipDescription:
-                  "Your melee attacks deal additional fire damage. Also, when your shields become depleted, you create a fiery explosion, damaging nearby enemies. Your shields must fully recharge between explosions.",
+                  "Congratulations, you have unlocked the power of GraphQL! Use this revolutionary query language to streamline your data fetching process and optimize your application's performance. With GraphQL, you can easily retrieve exactly the data you need and nothing more.",
                 children: []
               },
-              {
-                id: "ruin",
-                icon: ruinIcon,
-                title: "Ruin",
-                tooltipDescription:
-                  'Phaselock now Slags, Electrocutes, and Corrodes all nearby enemies. "Ignorance and Inconsideration may be greater causes of ruin, but they are slow and lacking in spectacle"',
-                children: []
-              }
+               
             ]
           }
         ]
